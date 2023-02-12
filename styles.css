@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color: #D6E1FF;
+
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.box{
+    width: 90%;
+    background-color: white;
+    max-width: 320px;
+    min-width: 320px;
+    border-radius: 10px;
+    box-shadow:
+  0px 7.3px 22.7px rgba(0, 0, 0, 0.029),
+  0px 24.8px 36.6px rgba(0, 0, 0, 0.034),
+  0px 100px 80px rgba(0, 0, 0, 0.03)
+;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 18px 20px 0px 20px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 20px;
+    color:  hsl(223, 47%, 23%);
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 19px 0 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.section3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.plan{
+    background-color: #E5E2FB;
+    width: 80%;
+    height: 70px;
+   display: flex;
+   align-items: center;
+   border-radius: 8px;
+}
+
+.left{
+    background-color: #BDC5DF;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #717DA3;
+    margin-left: 10px;
+}
+
+a:active{
+    
+    color: #766CF1;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.mid1{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.mid2{
+    color: #717DA3;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.button{
+    box-shadow:
+  0px 27.7px 15.3px rgba(0, 0, 0, 0.029),
+  0px 45.2px 29.1px rgba(0, 0, 0, 0.034),
+  0px 100px 80px rgba(0, 0, 0, 0.03)
+;
+}
+
+.btn{
+   width: 80%;
+   height: 40px;
+   color: white;
+   background-color: #382AE1;
+   border: none;
+   border-radius: 10px;
+   font-weight: 500;
+   cursor: pointer;
+   box-shadow:
+}
+
+.btn:active{
+    background-color: #766CF1;
+}
+
+.cancel{
+    margin-top: 20px;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.cancel:active{
+    color: hsl(223, 47%, 23%);
+}
